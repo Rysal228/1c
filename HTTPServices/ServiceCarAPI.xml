@@ -73,6 +73,63 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="dc8b9da4-3de7-4611-8ffb-4de68057044b">
+				<Properties>
+					<Name>UserByPhone</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>User by phone</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/user/{phone}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="74867ddb-f6bf-49a4-8101-6544d3d5ae1c">
+						<Properties>
+							<Name>UserGetByPhone</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>User get by phone</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>UserByPhoneUserGetByPhone</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4">
+						<Properties>
+							<Name>UserPutByPhone</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>User put by phone</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PUT</HTTPMethod>
+							<Handler/>
+						</Properties>
+					</Method>
+					<Method uuid="15f89868-ad03-4833-8650-f6b67467bd1c">
+						<Properties>
+							<Name>UserPatchByPhone</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>User patch by phone</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PATCH</HTTPMethod>
+							<Handler/>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

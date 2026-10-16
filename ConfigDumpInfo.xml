@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.ПользователиПриложения" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac" configVersion="d413cc2895539d4fa2e1b44865bfcc9200000000">
+		<Metadata name="Catalog.ПользователиПриложения" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac" configVersion="6d982a731bffa941acfa645350086d6a00000000">
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Отчество" id="51ed02a5-7f9d-421c-9898-4baaef3b0ab8"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Телефон" id="5a97d468-0977-4f98-8560-f9b7ca5e0ed2"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Фамилия" id="5f9175b7-2602-4948-8682-d25f8194f7d8"/>
@@ -19,14 +19,18 @@
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="111118b624e7a5469997ac456d7d6f3400000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="5fdfbf5e5f90584185196dacd7020dfb00000000">
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User.Method.PostUser" id="45be13e6-aab3-4b78-96b0-57ef9f0de7d0"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User" id="5129daa1-bab5-4336-97f8-b36225785884"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile" id="8137f7f4-5b2c-448f-b8d8-ab5afe9d7bc6"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile.Method.GetProfile" id="ebb9f4ac-e062-428d-ade0-3b86f30088a6"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="804611eebc426546a635a3d358fac29700000000"/>
-		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="d4083f2bd2794b45bb73f5b8c1de52ef00000000">
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="ad12c76d11680247b1829435570eb75900000000"/>
+		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="ed6c96359b150147917f090dc9da3ef000000000">
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Пользователь" id="4c997b49-03f9-49cd-a55b-63acc7a3c81c"/>
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Роль" id="cd213e65-b778-4052-a5a5-fa32cad4cae5"/>
 		</Metadata>
