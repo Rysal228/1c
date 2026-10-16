@@ -97,7 +97,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
-							<Handler>UserByPhoneUserGetByPhone</Handler>
+							<Handler>UserGetByPhone</Handler>
 						</Properties>
 					</Method>
 					<Method uuid="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4">
@@ -111,7 +111,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>PUT</HTTPMethod>
-							<Handler/>
+							<Handler>UserPutByPhone</Handler>
 						</Properties>
 					</Method>
 					<Method uuid="15f89868-ad03-4833-8650-f6b67467bd1c">
@@ -125,7 +125,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>PATCH</HTTPMethod>
-							<Handler/>
+							<Handler>UserPatchByPhone</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
