@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.ПользователиПриложения" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac" configVersion="d413cc2895539d4fa2e1b44865bfcc9200000000">
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.Отчество" id="51ed02a5-7f9d-421c-9898-4baaef3b0ab8"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.Телефон" id="5a97d468-0977-4f98-8560-f9b7ca5e0ed2"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.Фамилия" id="5f9175b7-2602-4948-8682-d25f8194f7d8"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.Активен" id="7ccf2fe5-f1ad-4a00-a505-ad90f3c23fe0"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.ИдентификаторВнешний" id="8736fa7b-c5d1-4edd-928c-a2617e2a13f9"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.ИдентификаторMAX" id="950b082c-1642-4d92-a033-7bb52ae3f726"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.ДатаРождения" id="9de6e065-7e70-4b6b-9c45-804959ad5cdb"/>
+			<Metadata name="Catalog.ПользователиПриложения.Attribute.Имя" id="ac0829f0-df2d-43bd-81a3-fb92f6553700"/>
+		</Metadata>
+		<Metadata name="Catalog.ПользователиПриложения.Predefined" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.1c" configVersion="930d53195a022b449741c074239321e000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="e9104cf26af5ce42bf1d423e8b18cd2f00000000"/>
+		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d5151b62-61bf-4740-8c6b-6942a5505eb9.6" configVersion="b36d290effc27844be04893d3906964200000000"/>
+		<Metadata name="Enum.РолиПользователей" id="960b4bde-c87e-4db2-99f3-cc08907a97b1" configVersion="4f0600f14303b343a275ba72ed710aa800000000">
+			<Metadata name="Enum.РолиПользователей.EnumValue.Пользователь" id="31267910-5f3b-4c77-b97a-8b5fc4586db0"/>
+			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
+			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
+		</Metadata>
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="111118b624e7a5469997ac456d7d6f3400000000">
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User.Method.PostUser" id="45be13e6-aab3-4b78-96b0-57ef9f0de7d0"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User" id="5129daa1-bab5-4336-97f8-b36225785884"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile" id="8137f7f4-5b2c-448f-b8d8-ab5afe9d7bc6"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile.Method.GetProfile" id="ebb9f4ac-e062-428d-ade0-3b86f30088a6"/>
+		</Metadata>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="804611eebc426546a635a3d358fac29700000000"/>
+		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="d4083f2bd2794b45bb73f5b8c1de52ef00000000">
+			<Metadata name="InformationRegister.РолиПользователей.Dimension.Пользователь" id="4c997b49-03f9-49cd-a55b-63acc7a3c81c"/>
+			<Metadata name="InformationRegister.РолиПользователей.Dimension.Роль" id="cd213e65-b778-4052-a5a5-fa32cad4cae5"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="23b50ea6-db91-4e6b-9903-cd7e0526fe6d" configVersion="a784747496d5764f8cde38ec810176dd00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
