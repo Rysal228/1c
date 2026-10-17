@@ -130,6 +130,25 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="279fc986-0ebc-4ca3-a2d2-71c9c47da424">
+				<Properties>
+					<Name>Mechanics</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/users/mechanics</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="20f57c18-02d3-414c-9216-7a614bd765c8">
+						<Properties>
+							<Name>GetMechanics</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>UserListMechanics</Handler>
+						</Properties>
+						</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
