@@ -149,6 +149,25 @@
 						</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="afb9f027-3534-45c7-b69e-b23e164723bc">
+				<Properties>
+					<Name>UserByOneCId</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/user/id/{id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e51c0ebc-3bbc-4606-bf2e-6db099b812ab">
+						<Properties>
+							<Name>GetUserByOneCId</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>UserGetByOneCId</Handler>
+						</Properties>
+						</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
