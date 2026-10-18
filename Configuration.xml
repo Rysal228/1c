@@ -263,6 +263,7 @@
 			<Catalog>ПользователиПриложения</Catalog>
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
+			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
