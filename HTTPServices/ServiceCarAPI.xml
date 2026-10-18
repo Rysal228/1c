@@ -217,6 +217,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="a6f21557-f171-4df3-9636-a975d1d34749">
+			    <Properties>
+			        <Name>PasswordSetup</Name>
+			        <Synonym>
+			            <v8:item>
+			                <v8:lang>ru</v8:lang>
+			                <v8:content>Password setup</v8:content>
+			            </v8:item>
+			        </Synonym>
+			        <Comment/>
+			        <Template>/password/setup</Template>
+			    </Properties>
+			    <ChildObjects>
+			        <Method uuid="46cc4ef5-658c-4ff4-9a4b-d7ea03443255">
+			            <Properties>
+			                <Name>PostPasswordSetup</Name>
+			                <Synonym>
+			                    <v8:item>
+			                        <v8:lang>ru</v8:lang>
+			                        <v8:content>Post password setup</v8:content>
+			                    </v8:item>
+			                </Synonym>
+			                <Comment/>
+			                <HTTPMethod>POST</HTTPMethod>
+			                <Handler>PasswordSetupPost</Handler>
+			            </Properties>
+			        </Method>
+			    </ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
