@@ -260,6 +260,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<HTTPService>ServiceCarAPI</HTTPService>
+			<HTTPService>ServiceCarAuth</HTTPService>
 			<Catalog>ПользователиПриложения</Catalog>
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
