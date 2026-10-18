@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<InformationRegister uuid="dd812a17-6a30-4f52-bb12-000000000001">
+	<InformationRegister uuid="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ПаролиПользователейПриложения" category="Record">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000002</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000003</xr:ValueId>
+				<xr:TypeId>d63e6305-72b7-4ca6-9505-17fd98adc161</xr:TypeId>
+				<xr:ValueId>ae9cf94f-b3ed-486e-a3e7-8c3b39a0ba73</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.ПаролиПользователейПриложения" category="Manager">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000004</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000005</xr:ValueId>
+				<xr:TypeId>7f3d764c-45ed-447e-9c41-7646982ed914</xr:TypeId>
+				<xr:ValueId>9e90c50c-93da-46ce-8596-450b4a681161</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.ПаролиПользователейПриложения" category="Selection">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000006</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000007</xr:ValueId>
+				<xr:TypeId>88b347c5-88af-4c7d-9aeb-ff8785016161</xr:TypeId>
+				<xr:ValueId>475c8f04-a682-4178-b523-3c2727c68970</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.ПаролиПользователейПриложения" category="List">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000008</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000009</xr:ValueId>
+				<xr:TypeId>a467426e-a655-43d3-94f3-24093d6133f6</xr:TypeId>
+				<xr:ValueId>4651dcca-5ee0-4818-88de-67daa3263c81</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.ПаролиПользователейПриложения" category="RecordSet">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000010</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000011</xr:ValueId>
+				<xr:TypeId>e06fd65b-6d56-4cf0-baa1-a7a96d1a145d</xr:TypeId>
+				<xr:ValueId>7ada79ae-88e0-41c5-a840-3b94e9112e76</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.ПаролиПользователейПриложения" category="RecordKey">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000012</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000013</xr:ValueId>
+				<xr:TypeId>eb6e4750-a652-41a6-858b-a22f159e9a03</xr:TypeId>
+				<xr:ValueId>8da44317-8bdb-4f4a-b37c-bae4c6ecc05b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.ПаролиПользователейПриложения" category="RecordManager">
-				<xr:TypeId>dd812a17-6a30-4f52-bb12-000000000014</xr:TypeId>
-				<xr:ValueId>dd812a17-6a30-4f52-bb12-000000000015</xr:ValueId>
+				<xr:TypeId>eb8c139a-3b6d-419a-b966-39c2c9e3b7e8</xr:TypeId>
+				<xr:ValueId>15dd8394-2595-4bbd-bc95-f0fbc1c614ae</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -40,7 +40,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>false</UseStandardCommands>
+			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
 			<DefaultListForm/>
@@ -64,18 +64,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Dimension uuid="dd812a17-6a30-4f52-bb12-000000000016">
+			<Resource uuid="48c9c072-6e85-4ae0-aa2e-08744bfea379">
 				<Properties>
-					<Name>Пользователь</Name>
+					<Name>СохраняемоеЗначение</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователь</v8:content>
+							<v8:content>Сохраняемое значение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ПользователиПриложения</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -88,7 +92,50 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fb3bc323-a4f8-4b8f-ab8b-8aaef3d28e4c">
+				<Properties>
+					<Name>Пользователь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -101,56 +148,12 @@
 					<Master>false</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<Indexing>Index</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>DontUse</DataHistory>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
-			<Resource uuid="dd812a17-6a30-4f52-bb12-000000000017">
-				<Properties>
-					<Name>СохраняемоеЗначение</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сохраняемое значение пароля</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>1024</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>true</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<FullTextSearch>DontUse</FullTextSearch>
-					<DataHistory>DontUse</DataHistory>
-					<TypeReductionMode>TransformValues</TypeReductionMode>
-				</Properties>
-			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

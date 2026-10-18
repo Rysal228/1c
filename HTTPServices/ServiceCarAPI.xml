@@ -130,42 +130,91 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="279fc986-0ebc-4ca3-a2d2-71c9c47da424">
+			<URLTemplate uuid="7670b0ce-7c7c-4b51-b99b-c957554f3341">
 				<Properties>
 					<Name>Mechanics</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mechanics</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/users/mechanics</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="20f57c18-02d3-414c-9216-7a614bd765c8">
+					<Method uuid="3ea11c1d-da68-4d8b-860a-86bc06e45de2">
 						<Properties>
 							<Name>GetMechanics</Name>
-							<Synonym/>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get mechanics</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
 							<Handler>UserListMechanics</Handler>
 						</Properties>
-						</Method>
+					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="afb9f027-3534-45c7-b69e-b23e164723bc">
+			<URLTemplate uuid="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e">
 				<Properties>
 					<Name>UserByOneCId</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>User by one c id</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/user/id/{id}</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="e51c0ebc-3bbc-4606-bf2e-6db099b812ab">
+					<Method uuid="2df87bed-c17a-4ce7-898d-4a8c97adccfd">
 						<Properties>
 							<Name>GetUserByOneCId</Name>
-							<Synonym/>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get user by one c id</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
 							<Handler>UserGetByOneCId</Handler>
 						</Properties>
-						</Method>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad">
+				<Properties>
+					<Name>PasswordVerify</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Password verify</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/password/verify</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="56e38162-9e6f-4c96-aef0-233d89e9d367">
+						<Properties>
+							<Name>PostPasswordVerify</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post password verify</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>PasswordVerifyPost</Handler>
+						</Properties>
+					</Method>
 				</ChildObjects>
 			</URLTemplate>
 		</ChildObjects>
