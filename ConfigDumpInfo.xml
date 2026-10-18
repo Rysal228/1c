@@ -32,9 +32,7 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId" id="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics" id="7670b0ce-7c7c-4b51-b99b-c957554f3341"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile" id="8137f7f4-5b2c-448f-b8d8-ab5afe9d7bc6"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserProfile.Method.GetProfile" id="ebb9f4ac-e062-428d-ade0-3b86f30088a6"/>
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="41e7ab46597a9846a00d464c8a4a58bc00000000"/>
 		<Metadata name="HTTPService.ServiceCarAuth" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d" configVersion="eac96fbe0c70f74b892ac4d0f42a763100000000">
