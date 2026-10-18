@@ -6,6 +6,42 @@
 Следующий этап — отдельный HTTP-сервис с **одним** методом проверки пароля,
 а не установка нового пароля и не замена действующей авторизации.
 
+## Проверено: Docker gateway и сертификаты (18.10.2026)
+
+- `docker exec service-car-backend getent hosts host.docker.internal`
+  вернул **172.17.0.1**.
+- `/opt/service-car/certbot/conf/live/cherser-car.site/fullchain.pem`
+  существует и не пуст.
+- `/opt/service-car/certbot/conf/live/cherser-car.site/privkey.pem`
+  существует и не пуст.
+
+Наличие файлов само по себе **не подтверждает**, что сертификат не
+истёк, включает имя `cherser-car.site` в SAN и соответствует ключу.
+Проверить `openssl x509 -noout -dates -ext subjectAltName`.
+
+Поскольку `ssl_module` сейчас не загружен, **не выполнять
+`a2enmod ssl` и не перезагружать Apache до проверки
+`/etc/apache2/ports.conf`**. На Debian стандартный `ports.conf`
+нередко содержит условное `<IfModule ssl_module> Listen 443`:
+после включения модуля Apache попробует занять порт 443,
+который **уже занят Docker/Nginx**, что может остановить старую
+публикацию на 8081. Будущий Apache должен слушать только
+`172.17.0.1:8443 https` (после проверки, что адрес и порт свободны).
+
+Безопасные только читающие команды для следующего шага:
+
+```bash
+sudo cat /etc/apache2/ports.conf
+sudo openssl x509 -in /opt/service-car/certbot/conf/live/cherser-car.site/fullchain.pem -noout -dates -ext subjectAltName
+```
+
+У HTTPS-клиента Django сертификат должен проверяться по
+`cherser-car.site`, а не по `host.docker.internal`. Позже
+нужно решить безопасное сопоставление имени с gateway `172.17.0.1`,
+не меняя публичный DNS и не нарушая внутренние callback-запросы
+Django к своему домену. Нельзя включать новое API на 8081 без
+запрета обходного маршрута через оба алиаса.
+
 ## Дополнительная диагностика SSL и размещения сертификатов
 
 По `apache2ctl -M` доступны `auth_basic_module` и
