@@ -6,6 +6,51 @@
 Следующий этап — отдельный HTTP-сервис с **одним** методом проверки пароля,
 а не установка нового пароля и не замена действующей авторизации.
 
+## Дополнительная диагностика SSL и размещения сертификатов
+
+По `apache2ctl -M` доступны `auth_basic_module` и
+`authn_file_module`, но **`ssl_module` пока не подключён**.
+`service-car-frontend` — контейнер Nginx, который принимает 443;
+его host bind-mount сертификатов:
+`/opt/service-car/certbot/conf` → `/etc/letsencrypt`.
+В репозитории frontend HTTPS-сертификат задан через
+`/etc/letsencrypt/live/cherser-car.site/{fullchain,privkey}.pem`,
+а значит на хосте предполагаются
+`/opt/service-car/certbot/conf/live/cherser-car.site/fullchain.pem`
+и `privkey.pem`. **Наличие и права этих файлов нужно подтвердить
+на сервере**, не показывая их содержимое.
+
+Предпочтительный кандидат при сохранении одной 1С-публикации:
+**дополнительный узкосетевой TLS VirtualHost того же Apache 2.4**
+на адресе Docker-host-gateway и отдельном порту (условно 8443),
+где разрешён только `ServiceCarAuth` и есть
+Apache Basic authentication (`AuthUserFile` вне web root).
+В прежнем HTTP VirtualHost `:8081` запретить
+`/ServiceCar/hs/auth/` и `/servicecar1c/hs/auth/`
+через `LocationMatch`, **до** включения ServiceCarAuth в default.vrd.
+Это два сетевых входа в *одну* публикацию той же ИБ, не две базы и
+не отдельный Apache.
+
+Ещё не определены адрес Docker host gateway, способ проверить TLS
+hostname из backend-контейнера и фактическое наличие сертификата.
+Не включать новую службу до end-to-end проверки TLS, Apache Basic,
+прямого запрета HTTP-пути на `:8081`, ограничения частоты запросов
+и отсутствия утечек через другие алиасы. **Само наличие Basic
+не обеспечивает защиты без TLS**.
+
+Текущее BSL `ServiceCarAuth` требует пользователя **информационной
+базы** `servicecar-auth`. Для выбранной Apache Basic-схемы его
+нужно адаптировать в отдельном ревью: сейчас он не совместим
+с отсутствием системных пользователей ИБ, и наличие HTTP-заголовка
+Basic само по себе не доказывает проверку пароля.
+
+Безопасные команды подтверждения:
+```bash
+docker exec service-car-backend getent hosts host.docker.internal
+sudo test -s /opt/service-car/certbot/conf/live/cherser-car.site/fullchain.pem && echo CERT_OK
+sudo test -s /opt/service-car/certbot/conf/live/cherser-car.site/privkey.pem && echo KEY_OK
+```
+
 ## Проверка продакшн-сервера (18.10.2026)
 
 Получены только читающие диагностические сведения от администратора:
