@@ -15,35 +15,6 @@
 			<SessionMaxAge>20</SessionMaxAge>
 		</Properties>
 		<ChildObjects>
-			<URLTemplate uuid="8137f7f4-5b2c-448f-b8d8-ab5afe9d7bc6">
-				<Properties>
-					<Name>UserProfile</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>User profile</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Template>/user/profile</Template>
-				</Properties>
-				<ChildObjects>
-					<Method uuid="ebb9f4ac-e062-428d-ade0-3b86f30088a6">
-						<Properties>
-							<Name>GetProfile</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Get profile</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>GET</HTTPMethod>
-							<Handler>UserProfileGetProfile</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
-			</URLTemplate>
 			<URLTemplate uuid="5129daa1-bab5-4336-97f8-b36225785884">
 				<Properties>
 					<Name>User</Name>
