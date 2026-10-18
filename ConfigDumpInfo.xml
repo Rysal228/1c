@@ -21,6 +21,8 @@
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="988a5c549eee54429ec9897760e1cd1000000000">
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="a6f21557-f171-4df3-9636-a975d1d34749"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="46cc4ef5-658c-4ff4-9a4b-d7ea03443255"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="f14b3a6d-5c44-4f74-9598-c61dc63c1be0"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswordChange" id="5df31b83-7126-4522-a1e9-49e61b489c12"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
