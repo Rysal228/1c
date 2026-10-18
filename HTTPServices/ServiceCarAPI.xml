@@ -188,6 +188,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="f14b3a6d-5c44-4f74-9598-c61dc63c1be0">
+				<Properties>
+					<Name>PasswordChange</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Password change</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/password/change</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="5df31b83-7126-4522-a1e9-49e61b489c12">
+						<Properties>
+							<Name>PostPasswordChange</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post password change</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>PasswordChangePost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
