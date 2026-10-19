@@ -42,11 +42,23 @@
 		<Metadata name="HTTPService.ServiceCarAuth" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d" configVersion="eac96fbe0c70f74b892ac4d0f42a763100000000">
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="50611551-17c4-4fef-af78-ccf980c25ebf"/>
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify" id="faad84a0-c881-4540-8f8a-a512c969fd61"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxResolve" id="d9a77200-c5a1-4a2a-8a15-10c000000020"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxResolve.Method.PostMaxResolve" id="d9a77300-c5a1-4a2a-8a15-10c000000030"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeIssue" id="d9a77201-c5a1-4a2a-8a15-10c000000021"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="d9a77301-c5a1-4a2a-8a15-10c000000031"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeVerify" id="d9a77202-c5a1-4a2a-8a15-10c000000022"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="d9a77302-c5a1-4a2a-8a15-10c000000032"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeCancel" id="d9a77203-c5a1-4a2a-8a15-10c000000023"/>
+			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="d9a77303-c5a1-4a2a-8a15-10c000000033"/>
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAuth.Module" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d.0" configVersion="0b6485ad379b9d4bb48b61072001158400000000"/>
 		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="624d0de687e5f64089259241758a69ea00000000">
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Dimension.Пользователь" id="fb3bc323-a4f8-4b8f-ab8b-8aaef3d28e4c"/>
+		</Metadata>
+				<Metadata name="InformationRegister.КодыАвторизацииMAX" id="d9a771e0-c5a1-4a2a-8a15-10c000000000" configVersion="0000000000000000000000000000000000000000">
+			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="d9a771ef-c5a1-4a2a-8a15-10c00000000f"/>
+			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="d9a771e10-c5a1-4a2a-8a15-10c000000010"/>
 		</Metadata>
 		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="ed6c96359b150147917f090dc9da3ef000000000">
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Пользователь" id="4c997b49-03f9-49cd-a55b-63acc7a3c81c"/>
