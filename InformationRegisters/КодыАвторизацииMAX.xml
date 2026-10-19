@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Пароли пользователей приложения</v8:content>
+					<v8:content>Коды авторизации MAX</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -70,7 +70,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сохраняемое значение</v8:content>
+							<v8:content>Состояние кода</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
