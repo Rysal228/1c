@@ -23,13 +23,6 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="7"/>
 		</InputField>
-		<InputField name="ИдентификаторВнешний" id="9">
-			<DataPath>Объект.ИдентификаторВнешний</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИдентификаторВнешнийКонтекстноеМеню" id="10"/>
-			<ExtendedTooltip name="ИдентификаторВнешнийРасширеннаяПодсказка" id="11"/>
-		</InputField>
 		<InputField name="Фамилия" id="13">
 			<DataPath>Объект.Фамилия</DataPath>
 			<EditMode>EnterOnInput</EditMode>
