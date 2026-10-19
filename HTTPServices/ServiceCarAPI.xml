@@ -246,18 +246,28 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="d9a77200-c5a1-4a2a-8a15-10c000000020">
+			<URLTemplate uuid="7aa11c7c-2aef-4b81-a1fe-d990ec1c3ebe">
 				<Properties>
 					<Name>MaxResolve</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>MaxResolve</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Max resolve</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/max/resolve</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="d9a77300-c5a1-4a2a-8a15-10c000000030">
+					<Method uuid="b0519532-6b02-4ff3-b20a-f9fdc0e40be1">
 						<Properties>
 							<Name>PostMaxResolve</Name>
-							<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>PostMaxResolve</v8:content></v8:item></Synonym>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post max resolve</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>MAXResolvePost</Handler>
@@ -265,18 +275,28 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="d9a77201-c5a1-4a2a-8a15-10c000000021">
+			<URLTemplate uuid="50cf7f19-8684-4b47-83eb-163df1b4ae9d">
 				<Properties>
 					<Name>MaxCodeIssue</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>MaxCodeIssue</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Max code issue</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/max/code/issue</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="d9a77301-c5a1-4a2a-8a15-10c000000031">
+					<Method uuid="3ce1d3f9-5804-4028-bfdb-279a5327e58f">
 						<Properties>
 							<Name>PostMaxCodeIssue</Name>
-							<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>PostMaxCodeIssue</v8:content></v8:item></Synonym>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post max code issue</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>MAXCodeIssuePost</Handler>
@@ -284,18 +304,28 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="d9a77202-c5a1-4a2a-8a15-10c000000022">
+			<URLTemplate uuid="3ba08c76-404e-4c60-8685-30f9ca5419e8">
 				<Properties>
 					<Name>MaxCodeVerify</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>MaxCodeVerify</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Max code verify</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/max/code/verify</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="d9a77302-c5a1-4a2a-8a15-10c000000032">
+					<Method uuid="3621f40c-8445-48da-8ad5-8905df4ace0f">
 						<Properties>
 							<Name>PostMaxCodeVerify</Name>
-							<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>PostMaxCodeVerify</v8:content></v8:item></Synonym>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post max code verify</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>MAXCodeVerifyPost</Handler>
@@ -303,18 +333,28 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="d9a77203-c5a1-4a2a-8a15-10c000000023">
+			<URLTemplate uuid="8c3046ef-4f0c-4e53-8154-11026b1e517b">
 				<Properties>
 					<Name>MaxCodeCancel</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>MaxCodeCancel</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Max code cancel</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Template>/max/code/cancel</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="d9a77303-c5a1-4a2a-8a15-10c000000033">
+					<Method uuid="33bc5cc3-f7dc-4570-8e6a-a1242154474d">
 						<Properties>
 							<Name>PostMaxCodeCancel</Name>
-							<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>PostMaxCodeCancel</v8:content></v8:item></Synonym>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post max code cancel</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
 							<Handler>MAXCodeCancelPost</Handler>

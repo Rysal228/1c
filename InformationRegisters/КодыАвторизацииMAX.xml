@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<InformationRegister uuid="d9a771e0-c5a1-4a2a-8a15-10c000000000">
+	<InformationRegister uuid="4a799aed-2b31-446a-9717-df5f7021f5e0">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.КодыАвторизацииMAX" category="Record">
-				<xr:TypeId>d9a771e1-c5a1-4a2a-8a15-10c000000001</xr:TypeId>
-				<xr:ValueId>d9a771e2-c5a1-4a2a-8a15-10c000000002</xr:ValueId>
+				<xr:TypeId>675898f0-61c5-48b5-8c4a-3e0944950e0a</xr:TypeId>
+				<xr:ValueId>c5091b4c-647f-467f-a2ba-467dc1122f88</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.КодыАвторизацииMAX" category="Manager">
-				<xr:TypeId>d9a771e3-c5a1-4a2a-8a15-10c000000003</xr:TypeId>
-				<xr:ValueId>d9a771e4-c5a1-4a2a-8a15-10c000000004</xr:ValueId>
+				<xr:TypeId>714164ea-ab9c-4422-bccd-8e6f5d03456d</xr:TypeId>
+				<xr:ValueId>dcbf1525-f5fd-490e-ba80-0e32503777f8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.КодыАвторизацииMAX" category="Selection">
-				<xr:TypeId>d9a771e5-c5a1-4a2a-8a15-10c000000005</xr:TypeId>
-				<xr:ValueId>d9a771e6-c5a1-4a2a-8a15-10c000000006</xr:ValueId>
+				<xr:TypeId>5bbee2ed-743b-4aca-92c0-96a99004a9d9</xr:TypeId>
+				<xr:ValueId>c36b762a-bc8c-46ab-acd5-071ef9085431</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.КодыАвторизацииMAX" category="List">
-				<xr:TypeId>d9a771e7-c5a1-4a2a-8a15-10c000000007</xr:TypeId>
-				<xr:ValueId>d9a771e8-c5a1-4a2a-8a15-10c000000008</xr:ValueId>
+				<xr:TypeId>11229a53-3531-4be2-8edc-14ff6c76ad23</xr:TypeId>
+				<xr:ValueId>3bd3c5ee-c28c-4c7e-834d-179e009230be</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.КодыАвторизацииMAX" category="RecordSet">
-				<xr:TypeId>d9a771e9-c5a1-4a2a-8a15-10c000000009</xr:TypeId>
-				<xr:ValueId>d9a771ea-c5a1-4a2a-8a15-10c00000000a</xr:ValueId>
+				<xr:TypeId>30bd7957-f14e-46cd-aae1-0ee25997cd61</xr:TypeId>
+				<xr:ValueId>b030f56f-3ea9-4f80-a25f-f86fa3f51889</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.КодыАвторизацииMAX" category="RecordKey">
-				<xr:TypeId>d9a771eb-c5a1-4a2a-8a15-10c00000000b</xr:TypeId>
-				<xr:ValueId>d9a771ec-c5a1-4a2a-8a15-10c00000000c</xr:ValueId>
+				<xr:TypeId>f4adb330-e583-4623-9327-c84654224014</xr:TypeId>
+				<xr:ValueId>05a2ce78-e125-491c-8eb3-f1c772742b19</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.КодыАвторизацииMAX" category="RecordManager">
-				<xr:TypeId>d9a771ed-c5a1-4a2a-8a15-10c00000000d</xr:TypeId>
-				<xr:ValueId>d9a771ee-c5a1-4a2a-8a15-10c00000000e</xr:ValueId>
+				<xr:TypeId>01b42562-1708-4465-9fcf-52cc2f9d8490</xr:TypeId>
+				<xr:ValueId>6c792cb2-1376-4631-9cc8-4cee73bd8ec4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -64,13 +64,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="d9a771ef-c5a1-4a2a-8a15-10c00000000f">
+			<Resource uuid="2aca5b39-ef28-4622-bc4a-baa22935402c">
 				<Properties>
 					<Name>Состояние</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Состояние кода</v8:content>
+							<v8:content>Состояние</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -107,9 +107,9 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="d9a771f0-c5a1-4a2a-8a15-10c000000010">
+			<Dimension uuid="ce32eb04-9a8b-4f26-b2ef-3c278184119c">
 				<Properties>
-					<Name>Пользователь</Name>
+					<Name>Имя</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

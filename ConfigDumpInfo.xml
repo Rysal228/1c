@@ -13,52 +13,47 @@
 		</Metadata>
 		<Metadata name="Catalog.ПользователиПриложения.ObjectModule" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.0" configVersion="872ed2860531af44ac64709b390c599c00000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.Predefined" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.1c" configVersion="930d53195a022b449741c074239321e000000000"/>
-		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="1bed6abb7e828f4dacdf03b27dac937100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="b45ebf5df7e7a149958252063150b10700000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d5151b62-61bf-4740-8c6b-6942a5505eb9.6" configVersion="fc9ee81b4944cb479acb2d3cad79392000000000"/>
 		<Metadata name="Enum.РолиПользователей" id="960b4bde-c87e-4db2-99f3-cc08907a97b1" configVersion="4f0600f14303b343a275ba72ed710aa800000000">
 			<Metadata name="Enum.РолиПользователей.EnumValue.Пользователь" id="31267910-5f3b-4c77-b97a-8b5fc4586db0"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="9c164fdc9e37ef44a098e5c1f714cb9100000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="c478050271f1f2478983f721ebbe421e00000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve" id="d9a77200-c5a1-4a2a-8a15-10c000000020"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve.Method.PostMaxResolve" id="d9a77300-c5a1-4a2a-8a15-10c000000030"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue" id="d9a77201-c5a1-4a2a-8a15-10c000000021"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="d9a77301-c5a1-4a2a-8a15-10c000000031"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify" id="d9a77202-c5a1-4a2a-8a15-10c000000022"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="d9a77302-c5a1-4a2a-8a15-10c000000032"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="d9a77203-c5a1-4a2a-8a15-10c000000023"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="d9a77303-c5a1-4a2a-8a15-10c000000033"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId.Method.GetUserByOneCId" id="2df87bed-c17a-4ce7-898d-4a8c97adccfd"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="33bc5cc3-f7dc-4570-8e6a-a1242154474d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="3621f40c-8445-48da-8ad5-8905df4ace0f"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify" id="3ba08c76-404e-4c60-8685-30f9ca5419e8"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="3ce1d3f9-5804-4028-bfdb-279a5327e58f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics.Method.GetMechanics" id="3ea11c1d-da68-4d8b-860a-86bc06e45de2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User.Method.PostUser" id="45be13e6-aab3-4b78-96b0-57ef9f0de7d0"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue" id="50cf7f19-8684-4b47-83eb-163df1b4ae9d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User" id="5129daa1-bab5-4336-97f8-b36225785884"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="56e38162-9e6f-4c96-aef0-233d89e9d367"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId" id="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics" id="7670b0ce-7c7c-4b51-b99b-c957554f3341"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve" id="7aa11c7c-2aef-4b81-a1fe-d990ec1c3ebe"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="8ba6d843-a932-40c4-92e2-1fd6f5988d76"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="8c3046ef-4f0c-4e53-8154-11026b1e517b"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve.Method.PostMaxResolve" id="b0519532-6b02-4ff3-b20a-f9fdc0e40be1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswrodChange" id="b803d289-71f2-47fa-b071-71787a88d86d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="e34e34ca-c354-4af3-9555-d2371d80c8c8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="e44dbd19-da57-4517-9b91-34aff008d8ab"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="15e46c4231873148b20333902919134500000000"/>
-		<Metadata name="HTTPService.ServiceCarAuth" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d" configVersion="eac96fbe0c70f74b892ac4d0f42a763100000000">
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="50611551-17c4-4fef-af78-ccf980c25ebf"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify" id="faad84a0-c881-4540-8f8a-a512c969fd61"/>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="e3b4b91efaeb594a9932a1445c7c21b700000000"/>
+		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="4a799aed-2b31-446a-9717-df5f7021f5e0" configVersion="f8282b8def7cf246bbdde628e662df9200000000">
+			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="2aca5b39-ef28-4622-bc4a-baa22935402c"/>
+			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Имя" id="ce32eb04-9a8b-4f26-b2ef-3c278184119c"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAuth.Module" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d.0" configVersion="0b6485ad379b9d4bb48b61072001158400000000"/>
 		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="624d0de687e5f64089259241758a69ea00000000">
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Dimension.Пользователь" id="fb3bc323-a4f8-4b8f-ab8b-8aaef3d28e4c"/>
-		</Metadata>
-		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="d9a771e0-c5a1-4a2a-8a15-10c000000000" configVersion="0000000000000000000000000000000000000000">
-			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="d9a771ef-c5a1-4a2a-8a15-10c00000000f"/>
-			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="d9a771f0-c5a1-4a2a-8a15-10c000000010"/>
 		</Metadata>
 		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="ed6c96359b150147917f090dc9da3ef000000000">
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Пользователь" id="4c997b49-03f9-49cd-a55b-63acc7a3c81c"/>
