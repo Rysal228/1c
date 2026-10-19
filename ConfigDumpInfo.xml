@@ -20,11 +20,7 @@
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="988a5c549eee54429ec9897760e1cd1000000000">
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="a6f21557-f171-4df3-9636-a975d1d34749"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="46cc4ef5-658c-4ff4-9a4b-d7ea03443255"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="f14b3a6d-5c44-4f74-9598-c61dc63c1be0"/>
-			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswordChange" id="5df31b83-7126-4522-a1e9-49e61b489c12"/>
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="9c164fdc9e37ef44a098e5c1f714cb9100000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
@@ -36,9 +32,13 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId" id="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics" id="7670b0ce-7c7c-4b51-b99b-c957554f3341"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="8ba6d843-a932-40c4-92e2-1fd6f5988d76"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswrodChange" id="b803d289-71f2-47fa-b071-71787a88d86d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="e34e34ca-c354-4af3-9555-d2371d80c8c8"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="e44dbd19-da57-4517-9b91-34aff008d8ab"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="41e7ab46597a9846a00d464c8a4a58bc00000000"/>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="15e46c4231873148b20333902919134500000000"/>
 		<Metadata name="HTTPService.ServiceCarAuth" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d" configVersion="eac96fbe0c70f74b892ac4d0f42a763100000000">
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="50611551-17c4-4fef-af78-ccf980c25ebf"/>
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify" id="faad84a0-c881-4540-8f8a-a512c969fd61"/>
