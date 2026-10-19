@@ -56,9 +56,9 @@
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Dimension.Пользователь" id="fb3bc323-a4f8-4b8f-ab8b-8aaef3d28e4c"/>
 		</Metadata>
-				<Metadata name="InformationRegister.КодыАвторизацииMAX" id="d9a771e0-c5a1-4a2a-8a15-10c000000000" configVersion="0000000000000000000000000000000000000000">
+		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="d9a771e0-c5a1-4a2a-8a15-10c000000000" configVersion="0000000000000000000000000000000000000000">
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="d9a771ef-c5a1-4a2a-8a15-10c00000000f"/>
-			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="d9a771e10-c5a1-4a2a-8a15-10c000000010"/>
+			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="d9a771f0-c5a1-4a2a-8a15-10c000000010"/>
 		</Metadata>
 		<Metadata name="InformationRegister.РолиПользователей" id="487fb7b0-f4b0-4744-92fa-c62a5a4a805d" configVersion="ed6c96359b150147917f090dc9da3ef000000000">
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Пользователь" id="4c997b49-03f9-49cd-a55b-63acc7a3c81c"/>
