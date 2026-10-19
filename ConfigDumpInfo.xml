@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.ПользователиПриложения" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac" configVersion="d5c287aaff25b644ba04e52e482df54a00000000">
+		<Metadata name="Catalog.ПользователиПриложения" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac" configVersion="2ff982fe5b68464baf78d2e17b8b318000000000">
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Отчество" id="51ed02a5-7f9d-421c-9898-4baaef3b0ab8"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Телефон" id="5a97d468-0977-4f98-8560-f9b7ca5e0ed2"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Фамилия" id="5f9175b7-2602-4948-8682-d25f8194f7d8"/>
@@ -10,8 +10,9 @@
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.ИдентификаторMAX" id="950b082c-1642-4d92-a033-7bb52ae3f726"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.ДатаРождения" id="9de6e065-7e70-4b6b-9c45-804959ad5cdb"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Имя" id="ac0829f0-df2d-43bd-81a3-fb92f6553700"/>
-			<Metadata name="Catalog.ПользователиПриложения.Form.ФормаЭлемента" id="793b5f27-6287-45bb-997f-c2cc41a9a7bd"/>
 		</Metadata>
+		<Metadata name="Catalog.ПользователиПриложения.Form.ФормаЭлемента" id="95c0cd4e-0cae-4560-8d2e-4f4a72df9eca" configVersion="d6682f49d4e6044599a919aebdcc2ff800000000"/>
+		<Metadata name="Catalog.ПользователиПриложения.Form.ФормаЭлемента.Form" id="95c0cd4e-0cae-4560-8d2e-4f4a72df9eca.0" configVersion="10db3605fa7b084f9aaabb0a8d01b93500000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.ObjectModule" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.0" configVersion="872ed2860531af44ac64709b390c599c00000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.Predefined" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.1c" configVersion="930d53195a022b449741c074239321e000000000"/>
 		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="b45ebf5df7e7a149958252063150b10700000000"/>
@@ -21,7 +22,7 @@
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="c478050271f1f2478983f721ebbe421e00000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="5b8019b0f573c14ebfb8562095c85d9300000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
@@ -47,12 +48,12 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="e34e34ca-c354-4af3-9555-d2371d80c8c8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="e44dbd19-da57-4517-9b91-34aff008d8ab"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="e3b4b91efaeb594a9932a1445c7c21b700000000"/>
-		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="4a799aed-2b31-446a-9717-df5f7021f5e0" configVersion="f8282b8def7cf246bbdde628e662df9200000000">
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="11e7830d86a18946944e412db8a0fcfc00000000"/>
+		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="4a799aed-2b31-446a-9717-df5f7021f5e0" configVersion="d2855f76a17f43499e20e6afcd3788f000000000">
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="2aca5b39-ef28-4622-bc4a-baa22935402c"/>
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="ce32eb04-9a8b-4f26-b2ef-3c278184119c"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="624d0de687e5f64089259241758a69ea00000000">
+		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="868aadd50ff2c24698b241ce5614f60100000000">
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Dimension.Пользователь" id="fb3bc323-a4f8-4b8f-ab8b-8aaef3d28e4c"/>
 		</Metadata>
