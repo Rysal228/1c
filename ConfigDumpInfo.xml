@@ -10,6 +10,7 @@
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.ИдентификаторMAX" id="950b082c-1642-4d92-a033-7bb52ae3f726"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.ДатаРождения" id="9de6e065-7e70-4b6b-9c45-804959ad5cdb"/>
 			<Metadata name="Catalog.ПользователиПриложения.Attribute.Имя" id="ac0829f0-df2d-43bd-81a3-fb92f6553700"/>
+			<Metadata name="Catalog.ПользователиПриложения.Form.ФормаЭлемента" id="793b5f27-6287-45bb-997f-c2cc41a9a7bd"/>
 		</Metadata>
 		<Metadata name="Catalog.ПользователиПриложения.ObjectModule" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.0" configVersion="872ed2860531af44ac64709b390c599c00000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.Predefined" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.1c" configVersion="930d53195a022b449741c074239321e000000000"/>
