@@ -22,6 +22,14 @@
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="9c164fdc9e37ef44a098e5c1f714cb9100000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve" id="d9a77200-c5a1-4a2a-8a15-10c000000020"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve.Method.PostMaxResolve" id="d9a77300-c5a1-4a2a-8a15-10c000000030"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue" id="d9a77201-c5a1-4a2a-8a15-10c000000021"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="d9a77301-c5a1-4a2a-8a15-10c000000031"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify" id="d9a77202-c5a1-4a2a-8a15-10c000000022"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="d9a77302-c5a1-4a2a-8a15-10c000000032"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="d9a77203-c5a1-4a2a-8a15-10c000000023"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="d9a77303-c5a1-4a2a-8a15-10c000000033"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId.Method.GetUserByOneCId" id="2df87bed-c17a-4ce7-898d-4a8c97adccfd"/>
@@ -42,14 +50,6 @@
 		<Metadata name="HTTPService.ServiceCarAuth" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d" configVersion="eac96fbe0c70f74b892ac4d0f42a763100000000">
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="50611551-17c4-4fef-af78-ccf980c25ebf"/>
 			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.PasswordVerify" id="faad84a0-c881-4540-8f8a-a512c969fd61"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxResolve" id="d9a77200-c5a1-4a2a-8a15-10c000000020"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxResolve.Method.PostMaxResolve" id="d9a77300-c5a1-4a2a-8a15-10c000000030"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeIssue" id="d9a77201-c5a1-4a2a-8a15-10c000000021"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="d9a77301-c5a1-4a2a-8a15-10c000000031"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeVerify" id="d9a77202-c5a1-4a2a-8a15-10c000000022"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="d9a77302-c5a1-4a2a-8a15-10c000000032"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeCancel" id="d9a77203-c5a1-4a2a-8a15-10c000000023"/>
-			<Metadata name="HTTPService.ServiceCarAuth.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="d9a77303-c5a1-4a2a-8a15-10c000000033"/>
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAuth.Module" id="9e527d85-66a7-4fe3-bc3c-835038c1c39d.0" configVersion="0b6485ad379b9d4bb48b61072001158400000000"/>
 		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="624d0de687e5f64089259241758a69ea00000000">
