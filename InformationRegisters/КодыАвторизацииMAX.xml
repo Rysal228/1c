@@ -109,7 +109,7 @@
 			</Resource>
 			<Dimension uuid="ce32eb04-9a8b-4f26-b2ef-3c278184119c">
 				<Properties>
-					<Name>Имя</Name>
+					<Name>Пользователь</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
