@@ -265,6 +265,7 @@
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
 			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>
+			<InformationRegister>КодыАвторизацииMAX</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
