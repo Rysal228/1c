@@ -264,6 +264,7 @@
 			<Catalog>ПользователиПриложения</Catalog>
 			<Catalog>МаркиАвтомобилей</Catalog>
 			<Catalog>МоделиАвтомобилей</Catalog>
+			<Catalog>Автомобили</Catalog>
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
 			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>

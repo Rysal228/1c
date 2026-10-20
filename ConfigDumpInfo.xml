@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
+		<Metadata name="Catalog.Автомобили" id="cc1a38bd-3d20-4da7-afa0-4e89a3f33142" configVersion="57d3df501a232e4e9ed881d36034475c00000000">
+			<Metadata name="Catalog.Автомобили.Attribute.ВладелецАвтомобиля" id="16b86a83-0640-40ad-864a-9beb8c184727"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Фото" id="42e2ace8-1de6-4dec-8478-533cde9f9453"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Марка" id="6cb26302-f035-4220-90c9-5e64dae8a880"/>
+			<Metadata name="Catalog.Автомобили.Attribute.VIN" id="a5c68661-69b3-4dab-aa6f-3a6cc85de738"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ГосНомер" id="ace81f0c-0461-4d94-8a56-06d8c120665a"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ВАрхиве" id="b05a3865-e917-4264-9c4a-d91caebfeb09"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Модель" id="b4c69c70-7f77-47a1-83bf-cfa8730b4baf"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ФорматФото" id="c8803c9b-91a0-4e19-8eb0-bbaedd15b383"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ГодВыпуска" id="eb37fea9-87da-4f0b-8ae4-2c83f652899e"/>
+		</Metadata>
+		<Metadata name="Catalog.Автомобили.Form.ФормаЭлемента" id="b7b3b15b-5196-48ec-8bf5-8e7a9a23e2d9" configVersion="2ada3c32eeb1f249b26070f315b1c52100000000"/>
+		<Metadata name="Catalog.Автомобили.Form.ФормаЭлемента.Form" id="b7b3b15b-5196-48ec-8bf5-8e7a9a23e2d9.0" configVersion="c641b1668f15994fbdd4eb0ead33856400000000"/>
+		<Metadata name="Catalog.Автомобили.ObjectModule" id="cc1a38bd-3d20-4da7-afa0-4e89a3f33142.0" configVersion="20f5e996df52384297954239e5bd426e00000000"/>
 		<Metadata name="Catalog.МаркиАвтомобилей" id="81d0688a-ebcf-400b-a2e1-73a7137d5ef5" configVersion="d4d770dfa6c4bf4ca6036d9e0824f2ac00000000"/>
 		<Metadata name="Catalog.МаркиАвтомобилей.Form.ФормаЭлемента" id="1a9c8493-d792-47a3-af27-6a7dbd64b5f0" configVersion="2a5aed817e58fc49bf4420d52773c35400000000"/>
 		<Metadata name="Catalog.МаркиАвтомобилей.Form.ФормаЭлемента.Form" id="1a9c8493-d792-47a3-af27-6a7dbd64b5f0.0" configVersion="74463daf10145d458b3c5129f99a9a6600000000"/>
@@ -24,40 +38,53 @@
 		<Metadata name="Catalog.ПользователиПриложения.Form.ФормаЭлемента.Form" id="95c0cd4e-0cae-4560-8d2e-4f4a72df9eca.0" configVersion="20364495af163d44b493708d80453f9c00000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.ObjectModule" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.0" configVersion="2ed5e4d9e52f7d46bbe8924491ff3fa200000000"/>
 		<Metadata name="Catalog.ПользователиПриложения.Predefined" id="5b52585b-a612-4b0d-93e3-f2428d54f3ac.1c" configVersion="930d53195a022b449741c074239321e000000000"/>
-		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="61ae655f8d8002409d7ca9c1eb7cdae200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="4152c7977f6532489ea617430005c64400000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d5151b62-61bf-4740-8c6b-6942a5505eb9.6" configVersion="fc9ee81b4944cb479acb2d3cad79392000000000"/>
 		<Metadata name="Enum.РолиПользователей" id="960b4bde-c87e-4db2-99f3-cc08907a97b1" configVersion="4f0600f14303b343a275ba72ed710aa800000000">
 			<Metadata name="Enum.РолиПользователей.EnumValue.Пользователь" id="31267910-5f3b-4c77-b97a-8b5fc4586db0"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="d348a697018a44449559ca38922169bc00000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="c0b78075136d264cb31dcc849dea013700000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore" id="06e9a826-283a-48af-9e70-238f2867e4c1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPutByPhone" id="1da722b2-11b5-4ac2-805b-e5b7a7fbf8c4"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.PostCars" id="1e2d6bab-67e0-4e11-88e7-c5d2f8b0d0ec"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels" id="1f7bb6fe-d1b8-4699-bf15-b2d9e5997003"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands.Method.GetCarBrands" id="2163c025-3bd2-4c20-8fe3-b65e71262c69"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId.Method.GetUserByOneCId" id="2df87bed-c17a-4ce7-898d-4a8c97adccfd"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="33bc5cc3-f7dc-4570-8e6a-a1242154474d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels.Method.GetCarModels" id="345aeea6-adf7-431d-9e5a-5142066a7cc1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="3621f40c-8445-48da-8ad5-8905df4ace0f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify" id="3ba08c76-404e-4c60-8685-30f9ca5419e8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="3ce1d3f9-5804-4028-bfdb-279a5327e58f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics.Method.GetMechanics" id="3ea11c1d-da68-4d8b-860a-86bc06e45de2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User.Method.PostUser" id="45be13e6-aab3-4b78-96b0-57ef9f0de7d0"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.DeleteCarById" id="4b681353-89e7-441c-9942-8372f1ab51bf"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.GetCarById" id="504177f2-970e-4864-9b84-a5e80ce4e734"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue" id="50cf7f19-8684-4b47-83eb-163df1b4ae9d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User" id="5129daa1-bab5-4336-97f8-b36225785884"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="56e38162-9e6f-4c96-aef0-233d89e9d367"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId" id="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands" id="68b6e73c-2e1b-421d-8bf2-7e1437d03e85"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics" id="7670b0ce-7c7c-4b51-b99b-c957554f3341"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve" id="7aa11c7c-2aef-4b81-a1fe-d990ec1c3ebe"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="8ba6d843-a932-40c4-92e2-1fd6f5988d76"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="8c3046ef-4f0c-4e53-8154-11026b1e517b"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.PatchCarById" id="a5be7383-fbc1-45e6-989d-8bb508fd9f10"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve.Method.PostMaxResolve" id="b0519532-6b02-4ff3-b20a-f9fdc0e40be1"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars" id="b7acf11a-7f8b-4221-b317-05812ed3afc7"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswrodChange" id="b803d289-71f2-47fa-b071-71787a88d86d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById" id="b816cc5c-8052-4656-aba3-4e0f82d282ee"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.GetCars" id="d1e4a37d-31a1-46a8-9911-d411f6b10437"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="e34e34ca-c354-4af3-9555-d2371d80c8c8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="e44dbd19-da57-4517-9b91-34aff008d8ab"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore.Method.PostCarRestore" id="edd6bf7d-9181-4c74-bf94-41e69645f348"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="26409b7ef2523549b2fce4ff376c5f8c00000000"/>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="3db637692ad45b4e9ec4fa58695ffb7000000000"/>
 		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="4a799aed-2b31-446a-9717-df5f7021f5e0" configVersion="d2855f76a17f43499e20e6afcd3788f000000000">
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="2aca5b39-ef28-4622-bc4a-baa22935402c"/>
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="ce32eb04-9a8b-4f26-b2ef-3c278184119c"/>
@@ -71,7 +98,7 @@
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Роль" id="cd213e65-b778-4052-a5a5-fa32cad4cae5"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="23b50ea6-db91-4e6b-9903-cd7e0526fe6d" configVersion="a784747496d5764f8cde38ec810176dd00000000"/>
-		<Metadata name="Subsystem.Автосервис" id="75367f23-21d8-4bbb-9ce5-600aa6864410" configVersion="e0320d0c0068f947a14ac4b2b917a67400000000"/>
+		<Metadata name="Subsystem.Автосервис" id="75367f23-21d8-4bbb-9ce5-600aa6864410" configVersion="41cff0dc9921514885077a93382f00e800000000"/>
 		<Metadata name="Subsystem.Автосервис.CommandInterface" id="75367f23-21d8-4bbb-9ce5-600aa6864410.1" configVersion="5daf4692eb4e9a4a98ec38dda17e6d5200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

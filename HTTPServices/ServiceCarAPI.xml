@@ -362,6 +362,193 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="68b6e73c-2e1b-421d-8bf2-7e1437d03e85">
+				<Properties>
+					<Name>CarBrands</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Car brands</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/car-brands</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="2163c025-3bd2-4c20-8fe3-b65e71262c69">
+						<Properties>
+							<Name>GetCarBrands</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get car brands</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarBrandsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="1f7bb6fe-d1b8-4699-bf15-b2d9e5997003">
+				<Properties>
+					<Name>CarModels</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Car models</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/car-models</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="345aeea6-adf7-431d-9e5a-5142066a7cc1">
+						<Properties>
+							<Name>GetCarModels</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get car models</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarModelsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="b7acf11a-7f8b-4221-b317-05812ed3afc7">
+				<Properties>
+					<Name>Cars</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Cars</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/cars</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d1e4a37d-31a1-46a8-9911-d411f6b10437">
+						<Properties>
+							<Name>GetCars</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get cars</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarsGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="1e2d6bab-67e0-4e11-88e7-c5d2f8b0d0ec">
+						<Properties>
+							<Name>PostCars</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post cars</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>CarsPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="b816cc5c-8052-4656-aba3-4e0f82d282ee">
+				<Properties>
+					<Name>CarById</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Car by id</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/cars/{id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="504177f2-970e-4864-9b84-a5e80ce4e734">
+						<Properties>
+							<Name>GetCarById</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get car by id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarByIdGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="a5be7383-fbc1-45e6-989d-8bb508fd9f10">
+						<Properties>
+							<Name>PatchCarById</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Patch car by id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PATCH</HTTPMethod>
+							<Handler>CarByIdPatch</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="4b681353-89e7-441c-9942-8372f1ab51bf">
+						<Properties>
+							<Name>DeleteCarById</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Delete car by id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>DELETE</HTTPMethod>
+							<Handler>CarByIdDelete</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="06e9a826-283a-48af-9e70-238f2867e4c1">
+				<Properties>
+					<Name>CarRestore</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Car restore</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/cars/{id}/restore</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="edd6bf7d-9181-4c74-bf94-41e69645f348">
+						<Properties>
+							<Name>PostCarRestore</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post car restore</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>CarRestorePost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
