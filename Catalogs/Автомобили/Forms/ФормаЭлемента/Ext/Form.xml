@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Владелец" id="1">
+			<DataPath>Объект.Владелец</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Марка" id="5">
+			<DataPath>Объект.Марка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МаркаКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="МаркаРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="Модель" id="9">
+			<DataPath>Объект.Модель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МодельКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="МодельРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="ГодВыпуска" id="13">
+			<DataPath>Объект.ГодВыпуска</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ГодВыпускаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ГодВыпускаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="VIN" id="17">
+			<DataPath>Объект.VIN</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="VINКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="VINРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="ГосНомер" id="21">
+			<DataPath>Объект.ГосНомер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ГосНомерКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ГосНомерРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<CheckBoxField name="ВАрхиве" id="25">
+			<DataPath>Объект.ВАрхиве</DataPath>
+			<ContextMenu name="ВАрхивеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВАрхивеРасширеннаяПодсказка" id="27"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Автомобили</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
