@@ -9,6 +9,8 @@
 			<Metadata name="Catalog.Автомобили.Attribute.VIN" id="7b6f020c-24b2-4e8f-af20-01000000020c"/>
 			<Metadata name="Catalog.Автомобили.Attribute.ГосНомер" id="7b6f020d-24b2-4e8f-af20-01000000020d"/>
 			<Metadata name="Catalog.Автомобили.Attribute.ВАрхиве" id="7b6f020e-24b2-4e8f-af20-01000000020e"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Фото" id="7b6f0257-24b2-4e8f-af20-010000000257"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ФорматФото" id="7b6f0258-24b2-4e8f-af20-010000000258"/>
 		</Metadata>
 		<Metadata name="Catalog.Автомобили.Form.ФормаЭлемента" id="7b6f01f5-24b2-4e8f-af20-0100000001f5" configVersion="c9ad77fa03c44e8e92266201d22a42cc00000000"/>
 		<Metadata name="Catalog.Автомобили.Form.ФормаЭлемента.Form" id="7b6f01f5-24b2-4e8f-af20-0100000001f5.0" configVersion="c9ad77fa03c44e8e92266201d22a42cc00000000"/>
