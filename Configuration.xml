@@ -261,6 +261,8 @@
 			<Language>Русский</Language>
 			<HTTPService>ServiceCarAPI</HTTPService>
 			<Catalog>ПользователиПриложения</Catalog>
+			<Catalog>МаркиАвтомобилей</Catalog>
+			<Catalog>МоделиАвтомобилей</Catalog>
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
 			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>
