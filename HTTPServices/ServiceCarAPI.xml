@@ -400,6 +400,90 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="e52304b0-ab12-4a9c-8b3e-0100000000c8">
+				<Properties>
+					<Name>Cars</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/cars</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e52304b1-ab12-4a9c-8b3e-0100000000c9">
+						<Properties>
+							<Name>GetCars</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarsGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="e52304b2-ab12-4a9c-8b3e-0100000000ca">
+						<Properties>
+							<Name>PostCars</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>CarsPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e52304b3-ab12-4a9c-8b3e-0100000000cb">
+				<Properties>
+					<Name>CarById</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/cars/{id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e52304b4-ab12-4a9c-8b3e-0100000000cc">
+						<Properties>
+							<Name>GetCarById</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarByIdGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="e52304b5-ab12-4a9c-8b3e-0100000000cd">
+						<Properties>
+							<Name>PatchCarById</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>PATCH</HTTPMethod>
+							<Handler>CarByIdPatch</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="e52304b6-ab12-4a9c-8b3e-0100000000ce">
+						<Properties>
+							<Name>DeleteCarById</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>DELETE</HTTPMethod>
+							<Handler>CarByIdDelete</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e52304b7-ab12-4a9c-8b3e-0100000000cf">
+				<Properties>
+					<Name>CarRestore</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/cars/{id}/restore</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e52304b8-ab12-4a9c-8b3e-0100000000d0">
+						<Properties>
+							<Name>PostCarRestore</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>CarRestorePost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

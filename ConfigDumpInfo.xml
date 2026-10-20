@@ -79,6 +79,15 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands.Method.GetCarBrands" id="e52303ea-ab12-4a9c-8b3e-010000000002"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels" id="e52303eb-ab12-4a9c-8b3e-010000000003"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels.Method.GetCarModels" id="e52303ec-ab12-4a9c-8b3e-010000000004"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars" id="e52304b0-ab12-4a9c-8b3e-0100000000c8"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.GetCars" id="e52304b1-ab12-4a9c-8b3e-0100000000c9"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.PostCars" id="e52304b2-ab12-4a9c-8b3e-0100000000ca"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById" id="e52304b3-ab12-4a9c-8b3e-0100000000cb"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.GetCarById" id="e52304b4-ab12-4a9c-8b3e-0100000000cc"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.PatchCarById" id="e52304b5-ab12-4a9c-8b3e-0100000000cd"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.DeleteCarById" id="e52304b6-ab12-4a9c-8b3e-0100000000ce"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore" id="e52304b7-ab12-4a9c-8b3e-0100000000cf"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore.Method.PostCarRestore" id="e52304b8-ab12-4a9c-8b3e-0100000000d0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="868aadd50ff2c24698b241ce5614f60100000000">
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>
