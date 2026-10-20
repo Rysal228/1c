@@ -61,6 +61,10 @@
 		<Metadata name="InformationRegister.КодыАвторизацииMAX" id="4a799aed-2b31-446a-9717-df5f7021f5e0" configVersion="d2855f76a17f43499e20e6afcd3788f000000000">
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Resource.Состояние" id="2aca5b39-ef28-4622-bc4a-baa22935402c"/>
 			<Metadata name="InformationRegister.КодыАвторизацииMAX.Dimension.Пользователь" id="ce32eb04-9a8b-4f26-b2ef-3c278184119c"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands" id="e52303e9-ab12-4a9c-8b3e-010000000001"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands.Method.GetCarBrands" id="e52303ea-ab12-4a9c-8b3e-010000000002"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels" id="e52303eb-ab12-4a9c-8b3e-010000000003"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels.Method.GetCarModels" id="e52303ec-ab12-4a9c-8b3e-010000000004"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ПаролиПользователейПриложения" id="bbc51cc9-b5b8-4b23-8c8c-8530c7c4494a" configVersion="868aadd50ff2c24698b241ce5614f60100000000">
 			<Metadata name="InformationRegister.ПаролиПользователейПриложения.Resource.СохраняемоеЗначение" id="48c9c072-6e85-4ae0-aa2e-08744bfea379"/>

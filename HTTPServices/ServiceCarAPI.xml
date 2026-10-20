@@ -362,6 +362,44 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="e52303e9-ab12-4a9c-8b3e-010000000001">
+				<Properties>
+					<Name>CarBrands</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/car-brands</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e52303ea-ab12-4a9c-8b3e-010000000002">
+						<Properties>
+							<Name>GetCarBrands</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarBrandsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e52303eb-ab12-4a9c-8b3e-010000000003">
+				<Properties>
+					<Name>CarModels</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/car-models</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e52303ec-ab12-4a9c-8b3e-010000000004">
+						<Properties>
+							<Name>GetCarModels</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CarModelsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
