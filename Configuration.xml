@@ -259,6 +259,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Автосервис</Subsystem>
 			<HTTPService>ServiceCarAPI</HTTPService>
 			<Catalog>ПользователиПриложения</Catalog>
 			<Catalog>МаркиАвтомобилей</Catalog>
