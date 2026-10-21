@@ -549,6 +549,64 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="726cf6b2-b3d6-448f-8604-da74fc283274">
+				<Properties>
+					<Name>OrderWorkTypes</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order work types</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-work-types</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="59f4ac7f-7e49-4992-8b2d-6193a7333a54">
+						<Properties>
+							<Name>GetOrderWorkTypes</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order work types</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderWorkTypesGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="f8e54fae-e46d-4506-b105-e92fb80a45ce">
+				<Properties>
+					<Name>OrderStatuses</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order statuses</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a60067b2-5db4-423d-982d-7d07df18a923">
+						<Properties>
+							<Name>GetOrderStatuses</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order statuses</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderStatusesGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
