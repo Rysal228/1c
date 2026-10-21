@@ -607,6 +607,382 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="3aed29b7-8fd0-4011-9859-5c0252c0fa9e">
+				<Properties>
+					<Name>OrderWorkStatuses</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order work statuses</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-work-statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a8d47803-d605-494f-ba7f-ea14a3691616">
+						<Properties>
+							<Name>GetOrderWorkStatuses</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order work statuses</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderWorkStatusesGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="ac44399a-8dc1-4295-9d79-84d3f2dbaae5">
+				<Properties>
+					<Name>OrderPaymentStatuses</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order payment statuses</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-payment-statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="014921f8-ccf7-4c48-9e1f-0772f18743d2">
+						<Properties>
+							<Name>GetOrderPaymentStatuses</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order payment statuses</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderPaymentStatusesGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="ad26d2ea-7e35-4139-81f7-d0dc2b7639c9">
+				<Properties>
+					<Name>OrderSchedule</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order schedule</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-schedule</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d48e40a5-9997-46c8-ad44-5dc8deb5eebd">
+						<Properties>
+							<Name>GetOrderSchedule</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order schedule</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderScheduleGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="4a467f4d-7442-4bd1-b068-3a7fbfb0de9f">
+				<Properties>
+					<Name>OrderAvailability</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order availability</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/order-availability</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="97520ab7-3ef0-4560-b2e0-8377d38195a2">
+						<Properties>
+							<Name>GetOrderAvailability</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order availability</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderAvailabilityGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="2a1f2ba0-523f-4f04-ac4d-927433e08252">
+				<Properties>
+					<Name>Orders</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Orders</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="507a0e19-e5a9-4cf1-a4cd-d81ef837a561">
+						<Properties>
+							<Name>GetOrders</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get orders</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrdersGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="a33be16f-ad6b-492c-958f-d13f8195c57d">
+						<Properties>
+							<Name>PostOrders</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post orders</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>OrdersPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="5b673ebb-9d56-4d4c-808a-26cc90cac568">
+				<Properties>
+					<Name>OrdersById</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Orders by id</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="8223ec94-56ff-4f4a-a47f-330d86db0586">
+						<Properties>
+							<Name>GetOrderById</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order by id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderByIdGet</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="4ed61ca0-fcab-44df-8da9-0f95b91653ac">
+						<Properties>
+							<Name>PatchOrderById</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Patch order by id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>PATCH</HTTPMethod>
+							<Handler>OrderByIdPatch</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="dce4efc7-ce8e-4bd3-875e-d0be4fe38e20">
+				<Properties>
+					<Name>OrderPermissions</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order permissions</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{id}/permissions</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="3642f795-cf12-474c-ab12-c73d594543ea">
+						<Properties>
+							<Name>GetOrderPermissions</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order permissions</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderPermissionsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="2f1d3970-0fe2-44c7-ac2c-e6e722590505">
+				<Properties>
+					<Name>OrderTransitionStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order transition status</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{id}/transition-status</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="72a15c59-bebc-4e84-bc49-f414f71ed54f">
+						<Properties>
+							<Name>PostOrderTransitionStatus</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post order transition status</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>OrderTransitionStatusPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="726ab512-6a2b-4d3d-a48b-48ba8ffeda02">
+				<Properties>
+					<Name>OrderTransitionWorkStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order transition work status</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{id}/transition-work-statu</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="30d4451f-b6cc-4590-a7a7-62624468e366">
+						<Properties>
+							<Name>PostOrderTransitionWorkStatus</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post order transition work status</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>OrderTransitionWorkStatusPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e7a78cbb-6b72-4664-b590-f9b664854a8b">
+				<Properties>
+					<Name>OrderPaymentStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order payment status</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/{id}/payment-status</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="84b35cca-9673-4e6b-b687-933bf221d529">
+						<Properties>
+							<Name>PostOrderPaymentStatus</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post order payment status</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>OrderPaymentStatusPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="37b517c6-43d6-4112-9a51-a8205f02fd3d">
+				<Properties>
+					<Name>OrderByCar</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order by car</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/by-car/{id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="6eb505fb-90a7-4ae5-9429-7aed9742105a">
+						<Properties>
+							<Name>GetOrderByCar</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order by car</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderByCarGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="678fcedb-ffd7-4066-8de1-0535a7840fea">
+				<Properties>
+					<Name>OrderCarExists</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Order car exists</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/orders/car/{id}/exists</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="bbd0c944-36c5-4a1e-9615-ae3f42011e4b">
+						<Properties>
+							<Name>GetOrderCarExists</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get order car exists</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderCarExistsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

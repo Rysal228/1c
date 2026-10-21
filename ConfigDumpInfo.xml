@@ -52,7 +52,7 @@
 		</Metadata>
 		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="b26f765ef4f84e40a0c0c612ba18d85d00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d5151b62-61bf-4740-8c6b-6942a5505eb9.6" configVersion="fc9ee81b4944cb479acb2d3cad79392000000000"/>
-		<Metadata name="Document.ЗаказыНаОбслуживание" id="a7b95068-f885-4fdc-a14e-1a115368d58a" configVersion="2a3f53ee2d82e34e8f1f7b51838c0a7300000000">
+		<Metadata name="Document.ЗаказыНаОбслуживание" id="a7b95068-f885-4fdc-a14e-1a115368d58a" configVersion="9448128019fd14439f355f429d04537f00000000">
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.МаркаАвтомобиля" id="0229fe8a-d70a-4dee-9b24-661734ce4015"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы" id="10d313a4-d398-43bc-bd15-0112f22b80d0"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.СтатусОплаты" id="1cc1013c-6b5e-486d-9cde-427c9126af41"/>
@@ -77,12 +77,14 @@
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.ТелефонКлиентаСнимок" id="f55b1b52-08a8-48ad-b061-8533dd325a1d"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы.Attribute.ИдентификаторСтроки" id="fed2a4f6-d573-4505-8052-5eb92af0ba53"/>
 		</Metadata>
+		<Metadata name="Document.ЗаказыНаОбслуживание.ObjectModule" id="a7b95068-f885-4fdc-a14e-1a115368d58a.0" configVersion="6094d3a6de889741a94117a2bd8c7f5d00000000"/>
 		<Metadata name="Enum.РолиПользователей" id="960b4bde-c87e-4db2-99f3-cc08907a97b1" configVersion="4f0600f14303b343a275ba72ed710aa800000000">
 			<Metadata name="Enum.РолиПользователей.EnumValue.Пользователь" id="31267910-5f3b-4c77-b97a-8b5fc4586db0"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="d016342c3d749a4f9675d7aa50be12e000000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="a9f7f962b4a553469853269ac54afd7500000000">
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatuses.Method.GetOrderPaymentStatuses" id="014921f8-ccf7-4c48-9e1f-0772f18743d2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore" id="06e9a826-283a-48af-9e70-238f2867e4c1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserPatchByPhone" id="15f89868-ad03-4833-8650-f6b67467bd1c"/>
@@ -90,42 +92,67 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.PostCars" id="1e2d6bab-67e0-4e11-88e7-c5d2f8b0d0ec"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels" id="1f7bb6fe-d1b8-4699-bf15-b2d9e5997003"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands.Method.GetCarBrands" id="2163c025-3bd2-4c20-8fe3-b65e71262c69"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Orders" id="2a1f2ba0-523f-4f04-ac4d-927433e08252"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId.Method.GetUserByOneCId" id="2df87bed-c17a-4ce7-898d-4a8c97adccfd"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderTransitionStatus" id="2f1d3970-0fe2-44c7-ac2c-e6e722590505"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderTransitionWorkStatus.Method.PostOrderTransitionWorkStatus" id="30d4451f-b6cc-4590-a7a7-62624468e366"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel.Method.PostMaxCodeCancel" id="33bc5cc3-f7dc-4570-8e6a-a1242154474d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarModels.Method.GetCarModels" id="345aeea6-adf7-431d-9e5a-5142066a7cc1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify.Method.PostMaxCodeVerify" id="3621f40c-8445-48da-8ad5-8905df4ace0f"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPermissions.Method.GetOrderPermissions" id="3642f795-cf12-474c-ab12-c73d594543ea"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderByCar" id="37b517c6-43d6-4112-9a51-a8205f02fd3d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderWorkStatuses" id="3aed29b7-8fd0-4011-9859-5c0252c0fa9e"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeVerify" id="3ba08c76-404e-4c60-8685-30f9ca5419e8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue.Method.PostMaxCodeIssue" id="3ce1d3f9-5804-4028-bfdb-279a5327e58f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics.Method.GetMechanics" id="3ea11c1d-da68-4d8b-860a-86bc06e45de2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User.Method.PostUser" id="45be13e6-aab3-4b78-96b0-57ef9f0de7d0"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderAvailability" id="4a467f4d-7442-4bd1-b068-3a7fbfb0de9f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.DeleteCarById" id="4b681353-89e7-441c-9942-8372f1ab51bf"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrdersById.Method.PatchOrderById" id="4ed61ca0-fcab-44df-8da9-0f95b91653ac"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.GetCarById" id="504177f2-970e-4864-9b84-a5e80ce4e734"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Orders.Method.GetOrders" id="507a0e19-e5a9-4cf1-a4cd-d81ef837a561"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeIssue" id="50cf7f19-8684-4b47-83eb-163df1b4ae9d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.User" id="5129daa1-bab5-4336-97f8-b36225785884"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify.Method.PostPasswordVerify" id="56e38162-9e6f-4c96-aef0-233d89e9d367"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderWorkTypes.Method.GetOrderWorkTypes" id="59f4ac7f-7e49-4992-8b2d-6193a7333a54"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrdersById" id="5b673ebb-9d56-4d4c-808a-26cc90cac568"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByOneCId" id="6100dba0-3bca-4ef6-9f5f-4098dd4e9a9e"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderCarExists" id="678fcedb-ffd7-4066-8de1-0535a7840fea"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarBrands" id="68b6e73c-2e1b-421d-8bf2-7e1437d03e85"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderByCar.Method.GetOrderByCar" id="6eb505fb-90a7-4ae5-9429-7aed9742105a"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderTransitionWorkStatus" id="726ab512-6a2b-4d3d-a48b-48ba8ffeda02"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderWorkTypes" id="726cf6b2-b3d6-448f-8604-da74fc283274"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderTransitionStatus.Method.PostOrderTransitionStatus" id="72a15c59-bebc-4e84-bc49-f414f71ed54f"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone.Method.UserGetByPhone" id="74867ddb-f6bf-49a4-8101-6544d3d5ae1c"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Mechanics" id="7670b0ce-7c7c-4b51-b99b-c957554f3341"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve" id="7aa11c7c-2aef-4b81-a1fe-d990ec1c3ebe"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrdersById.Method.GetOrderById" id="8223ec94-56ff-4f4a-a47f-330d86db0586"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatus.Method.PostOrderPaymentStatus" id="84b35cca-9673-4e6b-b687-933bf221d529"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange" id="8ba6d843-a932-40c4-92e2-1fd6f5988d76"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="8c3046ef-4f0c-4e53-8154-11026b1e517b"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderAvailability.Method.GetOrderAvailability" id="97520ab7-3ef0-4560-b2e0-8377d38195a2"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Orders.Method.PostOrders" id="a33be16f-ad6b-492c-958f-d13f8195c57d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.PatchCarById" id="a5be7383-fbc1-45e6-989d-8bb508fd9f10"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatuses.Method.GetOrderStatuses" id="a60067b2-5db4-423d-982d-7d07df18a923"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderWorkStatuses.Method.GetOrderWorkStatuses" id="a8d47803-d605-494f-ba7f-ea14a3691616"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatuses" id="ac44399a-8dc1-4295-9d79-84d3f2dbaae5"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderSchedule" id="ad26d2ea-7e35-4139-81f7-d0dc2b7639c9"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxResolve.Method.PostMaxResolve" id="b0519532-6b02-4ff3-b20a-f9fdc0e40be1"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars" id="b7acf11a-7f8b-4221-b317-05812ed3afc7"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordChange.Method.PostPasswrodChange" id="b803d289-71f2-47fa-b071-71787a88d86d"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById" id="b816cc5c-8052-4656-aba3-4e0f82d282ee"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderCarExists.Method.GetOrderCarExists" id="bbd0c944-36c5-4a1e-9615-ae3f42011e4b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.GetCars" id="d1e4a37d-31a1-46a8-9911-d411f6b10437"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderSchedule.Method.GetOrderSchedule" id="d48e40a5-9997-46c8-ad44-5dc8deb5eebd"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPermissions" id="dce4efc7-ce8e-4bd3-875e-d0be4fe38e20"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup" id="e34e34ca-c354-4af3-9555-d2371d80c8c8"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordSetup.Method.PostPasswordSetup" id="e44dbd19-da57-4517-9b91-34aff008d8ab"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatus" id="e7a78cbb-6b72-4664-b590-f9b664854a8b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore.Method.PostCarRestore" id="edd6bf7d-9181-4c74-bf94-41e69645f348"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatuses" id="f8e54fae-e46d-4506-b105-e92fb80a45ce"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="58760d887627c04dae0687b87ec78b1d00000000"/>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="85f6c59b11d2404d95921db8c596e55f00000000"/>
 		<Metadata name="InformationRegister.БлокировкиЗаписи" id="d690b0d8-248a-451c-8e4b-68d9be982423" configVersion="f27376223dbf444c99973bbbcede154a00000000">
 			<Metadata name="InformationRegister.БлокировкиЗаписи.Dimension.НачалоМинут" id="cb91a971-8cfd-4c25-895b-88df04b464e5"/>
 			<Metadata name="InformationRegister.БлокировкиЗаписи.Dimension.Дата" id="e31a98fa-07b3-42c5-a1c1-9b3ba8d19f3d"/>
