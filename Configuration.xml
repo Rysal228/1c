@@ -265,10 +265,19 @@
 			<Catalog>МаркиАвтомобилей</Catalog>
 			<Catalog>МоделиАвтомобилей</Catalog>
 			<Catalog>Автомобили</Catalog>
+			<Catalog>ВидыРабот</Catalog>
+			<Catalog>СтатусыЗаказов</Catalog>
+			<Catalog>СтатусыРабот</Catalog>
+			<Catalog>СтатусыОплаты</Catalog>
+			<Document>ЗаказыНаОбслуживание</Document>
 			<Enum>РолиПользователей</Enum>
 			<InformationRegister>РолиПользователей</InformationRegister>
 			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>
 			<InformationRegister>КодыАвторизацииMAX</InformationRegister>
+			<InformationRegister>НастройкиЗаписи</InformationRegister>
+			<InformationRegister>НедельныйГрафик</InformationRegister>
+			<InformationRegister>БлокировкиЗаписи</InformationRegister>
+			<InformationRegister>ЗанятыеИнтервалы</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

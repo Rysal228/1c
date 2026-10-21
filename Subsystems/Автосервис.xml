@@ -20,6 +20,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МоделиАвтомобилей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПользователиПриложения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Автомобили</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗанятыеИнтервалы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.БлокировкиЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НедельныйГрафик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказыНаОбслуживание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыОплаты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
