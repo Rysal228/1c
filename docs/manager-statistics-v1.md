@@ -2,7 +2,7 @@
 
 ## Контракт
 
-`GET /ServiceCar/hs/api/orders/statistics?actorId=<uuid>&actorRole=admin&from=YYYY-MM-DD&to=YYYY-MM-DD`
+`GET /ServiceCar/hs/api/statistics/orders?actorId=<uuid>&actorRole=admin&from=YYYY-MM-DD&to=YYYY-MM-DD`
 
 Доступ проверяет `ЗаказАвтор` по справочнику пользователей и регистру ролей. Дополнительно `ЗаказМенеджер` требует `actorRole=admin`; чужие роли возвращают 403. URL статический и расположен перед `/orders/{id}` в метаданных HTTP-сервиса.
 
