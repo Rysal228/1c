@@ -766,6 +766,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="3d1937d6-4b4b-443e-9cce-0f0acee24c39">
+				<Properties>
+					<Name>OrderStatistics</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статистика заказов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/statistics/orders</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="634a1aa0-4d46-4532-a8bc-60d2c1f7d77e">
+						<Properties>
+							<Name>GetOrderStatistics</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить статистику заказов</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>OrderStatisticsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 			<URLTemplate uuid="5b673ebb-9d56-4d4c-808a-26cc90cac568">
 				<Properties>
 					<Name>OrdersById</Name>
