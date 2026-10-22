@@ -776,7 +776,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/orders/statistics</Template>
+					<Template>/statistics/orders</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="634a1aa0-4d46-4532-a8bc-60d2c1f7d77e">
