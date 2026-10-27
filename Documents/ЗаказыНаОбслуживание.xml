@@ -291,7 +291,12 @@
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
-					<EditFormat/>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Л=ru_RU</v8:content>
+						</v8:item>
+					</EditFormat>
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>

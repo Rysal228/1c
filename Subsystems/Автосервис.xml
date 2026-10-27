@@ -29,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыЗаказов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыРабот</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыОплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ЖурналЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОткрытьЖурналЗаписей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

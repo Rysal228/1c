@@ -50,9 +50,13 @@
 		<Metadata name="Catalog.СтатусыРабот" id="f2d50c1c-ef4e-4948-8146-62bcbad02b0b" configVersion="ae83a865bec3274ebc7b94b953507e3200000000">
 			<Metadata name="Catalog.СтатусыРабот.Attribute.КодСтатуса" id="889dc442-5320-4f56-a4af-1bb98ee6430b"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="b26f765ef4f84e40a0c0c612ba18d85d00000000"/>
+		<Metadata name="CommonCommand.ОткрытьЖурналЗаписей" id="e0e98d5e-b5db-4b4e-8dd9-871835f08c63" configVersion="952b98e89cfa5444a8b709eac7e3292900000000"/>
+		<Metadata name="CommonCommand.ОткрытьЖурналЗаписей.CommandModule" id="e0e98d5e-b5db-4b4e-8dd9-871835f08c63.2" configVersion="27ba74dedaf4fc4989d1f84c04c0b79a00000000"/>
+		<Metadata name="CommonForm.ЖурналЗаписей" id="eb56fe0e-820e-47b8-bc84-f21e8b8304f1" configVersion="47d6105ff6e662478204aac2eca42f8300000000"/>
+		<Metadata name="CommonForm.ЖурналЗаписей.Form" id="eb56fe0e-820e-47b8-bc84-f21e8b8304f1.0" configVersion="111f883517eb1d4db157671b7537c06100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b2ed2c01-e91f-409d-bd29-c48ab12a26ba" configVersion="5a98de533df0c94f9c7bce122ea83baf00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="d5151b62-61bf-4740-8c6b-6942a5505eb9.6" configVersion="fc9ee81b4944cb479acb2d3cad79392000000000"/>
-		<Metadata name="Document.ЗаказыНаОбслуживание" id="a7b95068-f885-4fdc-a14e-1a115368d58a" configVersion="9448128019fd14439f355f429d04537f00000000">
+		<Metadata name="Document.ЗаказыНаОбслуживание" id="a7b95068-f885-4fdc-a14e-1a115368d58a" configVersion="e953bd8a7486fd4db88523e19228521700000000">
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.МаркаАвтомобиля" id="0229fe8a-d70a-4dee-9b24-661734ce4015"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы" id="10d313a4-d398-43bc-bd15-0112f22b80d0"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.СтатусОплаты" id="1cc1013c-6b5e-486d-9cde-427c9126af41"/>
@@ -77,13 +81,13 @@
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.ТелефонКлиентаСнимок" id="f55b1b52-08a8-48ad-b061-8533dd325a1d"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы.Attribute.ИдентификаторСтроки" id="fed2a4f6-d573-4505-8052-5eb92af0ba53"/>
 		</Metadata>
-		<Metadata name="Document.ЗаказыНаОбслуживание.ObjectModule" id="a7b95068-f885-4fdc-a14e-1a115368d58a.0" configVersion="6094d3a6de889741a94117a2bd8c7f5d00000000"/>
+		<Metadata name="Document.ЗаказыНаОбслуживание.ObjectModule" id="a7b95068-f885-4fdc-a14e-1a115368d58a.0" configVersion="18442d96ad696142ba650c1e3084c54200000000"/>
 		<Metadata name="Enum.РолиПользователей" id="960b4bde-c87e-4db2-99f3-cc08907a97b1" configVersion="4f0600f14303b343a275ba72ed710aa800000000">
 			<Metadata name="Enum.РолиПользователей.EnumValue.Пользователь" id="31267910-5f3b-4c77-b97a-8b5fc4586db0"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Менеджер" id="36405fd7-bab0-4943-a21f-b08dc1a849c3"/>
 			<Metadata name="Enum.РолиПользователей.EnumValue.Специалист" id="acb8cd8f-8de7-49aa-995b-32387addfa40"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="a9f7f962b4a553469853269ac54afd7500000000">
+		<Metadata name="HTTPService.ServiceCarAPI" id="370b5a59-b02a-4ca8-be07-7df25ca96e86" configVersion="bcd63d4f07bdeb47adff012808ed712100000000">
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatuses.Method.GetOrderPaymentStatuses" id="014921f8-ccf7-4c48-9e1f-0772f18743d2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.PasswordVerify" id="06b93840-8d41-4d5c-bc1d-dcbc2a1a7aad"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore" id="06e9a826-283a-48af-9e70-238f2867e4c1"/>
@@ -132,6 +136,7 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.MaxCodeCancel" id="8c3046ef-4f0c-4e53-8154-11026b1e517b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderAvailability.Method.GetOrderAvailability" id="97520ab7-3ef0-4560-b2e0-8377d38195a2"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Orders.Method.PostOrders" id="a33be16f-ad6b-492c-958f-d13f8195c57d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatistics.Method.GetOrderStatistics" id="a54144f6-f570-4f42-a0d0-860c9a50f262"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById.Method.PatchCarById" id="a5be7383-fbc1-45e6-989d-8bb508fd9f10"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatuses.Method.GetOrderStatuses" id="a60067b2-5db4-423d-982d-7d07df18a923"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderWorkStatuses.Method.GetOrderWorkStatuses" id="a8d47803-d605-494f-ba7f-ea14a3691616"/>
@@ -143,6 +148,7 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarById" id="b816cc5c-8052-4656-aba3-4e0f82d282ee"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderCarExists.Method.GetOrderCarExists" id="bbd0c944-36c5-4a1e-9615-ae3f42011e4b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.Cars.Method.GetCars" id="d1e4a37d-31a1-46a8-9911-d411f6b10437"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatistics" id="d21114a3-606d-4691-bdef-6d63d559a612"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderSchedule.Method.GetOrderSchedule" id="d48e40a5-9997-46c8-ad44-5dc8deb5eebd"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.UserByPhone" id="dc8b9da4-3de7-4611-8ffb-4de68057044b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPermissions" id="dce4efc7-ce8e-4bd3-875e-d0be4fe38e20"/>
@@ -152,7 +158,7 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore.Method.PostCarRestore" id="edd6bf7d-9181-4c74-bf94-41e69645f348"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatuses" id="f8e54fae-e46d-4506-b105-e92fb80a45ce"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="85f6c59b11d2404d95921db8c596e55f00000000"/>
+		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="ac6c055af0033c4498066dda9b4844e400000000"/>
 		<Metadata name="InformationRegister.БлокировкиЗаписи" id="d690b0d8-248a-451c-8e4b-68d9be982423" configVersion="f27376223dbf444c99973bbbcede154a00000000">
 			<Metadata name="InformationRegister.БлокировкиЗаписи.Dimension.НачалоМинут" id="cb91a971-8cfd-4c25-895b-88df04b464e5"/>
 			<Metadata name="InformationRegister.БлокировкиЗаписи.Dimension.Дата" id="e31a98fa-07b3-42c5-a1c1-9b3ba8d19f3d"/>
@@ -189,7 +195,7 @@
 			<Metadata name="InformationRegister.РолиПользователей.Dimension.Роль" id="cd213e65-b778-4052-a5a5-fa32cad4cae5"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="23b50ea6-db91-4e6b-9903-cd7e0526fe6d" configVersion="a784747496d5764f8cde38ec810176dd00000000"/>
-		<Metadata name="Subsystem.Автосервис" id="75367f23-21d8-4bbb-9ce5-600aa6864410" configVersion="f0d91e79ee40f943b6349b2fae6f0c1400000000"/>
+		<Metadata name="Subsystem.Автосервис" id="75367f23-21d8-4bbb-9ce5-600aa6864410" configVersion="50e7962ce21d154aab6cb66bc51a8faa00000000"/>
 		<Metadata name="Subsystem.Автосервис.CommandInterface" id="75367f23-21d8-4bbb-9ce5-600aa6864410.1" configVersion="5daf4692eb4e9a4a98ec38dda17e6d5200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
