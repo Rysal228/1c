@@ -1012,7 +1012,7 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="ce7da80b-c587-4f89-9f33-532ae33b56f0">
+			<URLTemplate uuid="860d76d7-5b45-4edf-91f6-cea3e4c24fdd">
 				<Properties>
 					<Name>MechanicStatistics</Name>
 					<Synonym>
@@ -1025,7 +1025,7 @@
 					<Template>/statistics/mechanic</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="9c33cb5e-f462-470d-8d79-b5e2d5b9204a">
+					<Method uuid="e599a613-6b12-492b-89c2-7715c39a419e">
 						<Properties>
 							<Name>GetMechanicStatistics</Name>
 							<Synonym>
