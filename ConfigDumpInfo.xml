@@ -82,6 +82,7 @@
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы.Attribute.ВидРабот" id="d2f0d4f0-569e-4b7c-ba6f-83537e945115"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.ИсторияНазначенийСпециалистов.Attribute.ДатаПервогоНазначения" id="e38e9ec0-8c00-456d-bda6-31b406467705"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.ДатаЗаписи" id="e7318aaf-efa2-4044-ac1d-fde26224e166"/>
+			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.ДатаЗакрытия" id="4a858f49-7a33-49b5-95f3-fd7bde32d294"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.Attribute.ТелефонКлиентаСнимок" id="f55b1b52-08a8-48ad-b061-8533dd325a1d"/>
 			<Metadata name="Document.ЗаказыНаОбслуживание.TabularSection.Работы.Attribute.ИдентификаторСтроки" id="fed2a4f6-d573-4505-8052-5eb92af0ba53"/>
 		</Metadata>
