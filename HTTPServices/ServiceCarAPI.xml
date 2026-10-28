@@ -1012,6 +1012,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="ce7da80b-c587-4f89-9f33-532ae33b56f0">
+				<Properties>
+					<Name>MechanicStatistics</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mechanic statistics</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/statistics/mechanic</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="9c33cb5e-f462-470d-8d79-b5e2d5b9204a">
+						<Properties>
+							<Name>GetMechanicStatistics</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get mechanic statistics</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>MechanicStatisticsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
