@@ -164,6 +164,10 @@
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderPaymentStatus" id="e7a78cbb-6b72-4664-b590-f9b664854a8b"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.CarRestore.Method.PostCarRestore" id="edd6bf7d-9181-4c74-bf94-41e69645f348"/>
 			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.OrderStatuses" id="f8e54fae-e46d-4506-b105-e92fb80a45ce"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.NotificationOrders" id="1beb044d-0369-43d0-832e-6df11e7e076e"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.NotificationOrders.Method.Get" id="fc1143ff-808d-4b5f-abba-b9c1802e4d3e"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.NotificationRecipient" id="98b72a62-f5cf-42a0-984d-79c26fbc0c2d"/>
+			<Metadata name="HTTPService.ServiceCarAPI.URLTemplate.NotificationRecipient.Method.Get" id="dbedd183-f226-49eb-ab0e-faa36e037567"/>
 		</Metadata>
 		<Metadata name="HTTPService.ServiceCarAPI.Module" id="370b5a59-b02a-4ca8-be07-7df25ca96e86.0" configVersion="a1bd9c3e68be004ba5c40e26200cfac600000000"/>
 		<Metadata name="InformationRegister.БлокировкиЗаписи" id="d690b0d8-248a-451c-8e4b-68d9be982423" configVersion="f27376223dbf444c99973bbbcede154a00000000">
@@ -204,5 +208,9 @@
 		<Metadata name="Language.Русский" id="23b50ea6-db91-4e6b-9903-cd7e0526fe6d" configVersion="a784747496d5764f8cde38ec810176dd00000000"/>
 		<Metadata name="Subsystem.Автосервис" id="75367f23-21d8-4bbb-9ce5-600aa6864410" configVersion="50e7962ce21d154aab6cb66bc51a8faa00000000"/>
 		<Metadata name="Subsystem.Автосервис.CommandInterface" id="75367f23-21d8-4bbb-9ce5-600aa6864410.1" configVersion="5daf4692eb4e9a4a98ec38dda17e6d5200000000"/>
+		<Metadata name="InformationRegister.НастройкиСервисаУведомлений" id="efa087ed-fc01-42af-b31d-4e494175d145">
+			<Metadata name="InformationRegister.НастройкиСервисаУведомлений.Resource.КлючДоступа" id="930ba615-2115-425b-afa5-b64c7e3cbfbb"/>
+			<Metadata name="InformationRegister.НастройкиСервисаУведомлений.Dimension.Ключ" id="df09d7e2-6cea-41e0-a3d8-e185628eedb3"/>
+		</Metadata>
 	</ConfigVersions>
 </ConfigDumpInfo>
