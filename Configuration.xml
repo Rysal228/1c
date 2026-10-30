@@ -276,6 +276,7 @@
 			<InformationRegister>РолиПользователей</InformationRegister>
 			<InformationRegister>ПаролиПользователейПриложения</InformationRegister>
 			<InformationRegister>КодыАвторизацииMAX</InformationRegister>
+			<InformationRegister>НастройкиСервисаУведомлений</InformationRegister>
 			<InformationRegister>НастройкиЗаписи</InformationRegister>
 			<InformationRegister>НедельныйГрафик</InformationRegister>
 			<InformationRegister>БлокировкиЗаписи</InformationRegister>

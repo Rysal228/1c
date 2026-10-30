@@ -1041,6 +1041,44 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="1beb044d-0369-43d0-832e-6df11e7e076e">
+				<Properties>
+					<Name>NotificationOrders</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/notifications/orders</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="fc1143ff-808d-4b5f-abba-b9c1802e4d3e">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>NotificationOrdersGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="98b72a62-f5cf-42a0-984d-79c26fbc0c2d">
+				<Properties>
+					<Name>NotificationRecipient</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/notifications/orders/{id}/recipient</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="dbedd183-f226-49eb-ab0e-faa36e037567">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>NotificationRecipientGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
