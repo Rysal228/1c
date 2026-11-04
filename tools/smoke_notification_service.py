@@ -79,6 +79,35 @@ def main():
         raise RuntimeError("Missing order must return 404")
     print("PASS recipient endpoint")
 
+    news_url = args.base_url.rstrip('/') + '/notifications/news/recipients'
+    for label, token in (("missing news key", None), ("wrong news key", wrong)):
+        status, _ = read(news_url, token)
+        if status != 401:
+            raise RuntimeError(f"{label}: expected 401, got {status}")
+        print(f"PASS {label}")
+    status, recipients = read(news_url, key)
+    if status != 200 or not isinstance(recipients, list):
+        raise RuntimeError(f"News recipients feed failed: HTTP {status}")
+    seen_users, seen_max = set(), set()
+    for row in recipients:
+        if not isinstance(row, dict) or set(row) != {"id", "messengerUserId", "roles"}:
+            raise RuntimeError("Unexpected news recipient fields")
+        UUID(row['id'])
+        if (
+            not isinstance(row['messengerUserId'], str)
+            or not 1 <= len(row['messengerUserId']) <= 20
+            or not row['messengerUserId'].isascii()
+            or not row['messengerUserId'].isdigit()
+            or not isinstance(row['roles'], list) or not row['roles']
+            or any(role not in ('user', 'mechanic', 'admin') for role in row['roles'])
+        ):
+            raise RuntimeError("Invalid MAX binding or roles in news audience")
+        if row['id'] in seen_users or row['messengerUserId'] in seen_max:
+            raise RuntimeError("Duplicate news recipient")
+        seen_users.add(row['id'])
+        seen_max.add(row['messengerUserId'])
+    print(f"PASS news recipients feed: {len(recipients)} users")
+
 
 if __name__ == "__main__":
     try:

@@ -1079,6 +1079,25 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="94361ec2-8b5a-4d67-aacd-5928f6b31d80">
+				<Properties>
+					<Name>NotificationNewsRecipients</Name>
+					<Synonym/>
+					<Comment/>
+					<Template>/notifications/news/recipients</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e5b9bf88-8d80-4c85-aad0-3fd0aa74aa99">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>NotificationNewsRecipientsGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
