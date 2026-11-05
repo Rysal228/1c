@@ -261,6 +261,7 @@
 			<Language>Русский</Language>
 			<Subsystem>Автосервис</Subsystem>
 			<HTTPService>ServiceCarAPI</HTTPService>
+			<CommonModule>ПланированиеЗаписей</CommonModule>
 			<CommonCommand>ОткрытьЖурналЗаписей</CommonCommand>
 			<CommonForm>ЖурналЗаписей</CommonForm>
 			<Catalog>ПользователиПриложения</Catalog>
