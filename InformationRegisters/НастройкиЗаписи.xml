@@ -70,7 +70,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Длительность минут</v8:content>
+							<v8:content>Приёмка автомобиля (мин)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -150,6 +150,36 @@
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="f1ec357c-a586-4721-a3a7-7ed8b353ea55">
+				<Properties>
+					<Name>КоличествоПостов</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Постов обслуживания</v8:content></v8:item></Synonym>
+					<Comment>Максимальное количество автомобилей, одновременно занимающих сервисные посты.</Comment>
+					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>4</v8:Digits><v8:FractionDigits>0</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:type="xs:decimal">0</FillValue><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="c86f56b9-89ad-4933-91be-ec17c303bbae">
+				<Properties>
+					<Name>СтоянкаВключена</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Есть отдельная стоянка</v8:content></v8:item></Synonym>
+					<Comment>Если выключено, ожидающие выдачи автомобили занимают посты обслуживания.</Comment>
+					<Type><v8:Type>xs:boolean</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:type="xs:boolean">false</FillValue><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Resource uuid="bd9bb7df-2a62-4e7a-84e0-82d747e1d75e">
+				<Properties>
+					<Name>КоличествоМестСтоянки</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Мест на стоянке</v8:content></v8:item></Synonym>
+					<Comment>Применяется только при включённой отдельной стоянке.</Comment>
+					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>4</v8:Digits><v8:FractionDigits>0</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:type="xs:decimal">0</FillValue><FillChecking>DontCheck</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Dimension uuid="8a5714d2-b225-4f0d-8cff-ef7056c00bba">
